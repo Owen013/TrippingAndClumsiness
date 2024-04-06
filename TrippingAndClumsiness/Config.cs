@@ -11,7 +11,7 @@ public static class Config
     public static float ReverseBoostChance { get; private set; }
     public static float EmergencyBoostMisfireChance { get; private set; }
     public static float ScoutMisfireChance { get; private set; }
-    public static float ReverseRepairChance { get; private set; }
+    //public static float ReverseRepairChance { get; private set; }
 
     public static void UpdateConfig(IModConfig config)
     {
@@ -22,6 +22,6 @@ public static class Config
         ReverseBoostChance = config.GetSettingsValue<float>("Reverse Boost Chance");
         EmergencyBoostMisfireChance = config.GetSettingsValue<float>("Emergency Boost Misfire Chance");
         ScoutMisfireChance = config.GetSettingsValue<float>("Scout Misfire Chance");
-        ReverseRepairChance = config.GetSettingsValue<float>("Reverse Repair Chance");
+        //ReverseRepairChance = config.GetSettingsValue<float>("Reverse Repair Chance");
     }
 }

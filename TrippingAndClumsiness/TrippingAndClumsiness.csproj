@@ -13,6 +13,9 @@
     <DebugType>none</DebugType>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Components\ReverseRepairController.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="OWML" Version="2.9.0" />
     <PackageReference Include="OuterWildsGameLibs" Version="1.1.13.393" />
   </ItemGroup>
