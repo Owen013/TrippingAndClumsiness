@@ -9,42 +9,37 @@
     "Trip Duration": {
       "type": "number",
       "value": 5,
-      "tooltip": ""
+      "tooltip": "How long it will take you to get back up after tripping."
     },
     "Chance of Tripping Randomly": {
       "type": "number",
       "value": 0.03,
-      "tooltip": ""
+      "tooltip": "The chance of faceplanting randomly."
     },
     "Chance of Tripping while Sprinting": {
       "type": "number",
       "value": 0.05,
-      "tooltip": ""
+      "tooltip": "The chance of tripping while running."
     },
     "Chance of Tripping per Point of Damage": {
       "type": "number",
       "value": 0.01,
-      "tooltip": ""
+      "tooltip": "The chance of tripping when you get a boo-boo, depending on how big the boo-boo is."
     },
     "Reverse Boost Chance": {
       "type": "number",
       "value": 0.1,
-      "tooltip": ""
+      "tooltip": "The chance that your jetpack booster may have an uh-oh."
     },
     "Emergency Boost Misfire Chance": {
       "type": "number",
       "value": 0.1,
-      "tooltip": ""
+      "tooltip": "IF HIKER'S MOD IS INSTALLED, the chance that an Emergency Boost will...not work correctly."
     },
     "Scout Misfire Chance": {
       "type": "number",
       "value": 0.1,
-      "tooltip": ""
-    },
-    "Reverse Repair Chance": {
-      "type": "number",
-      "value": 0.25,
-      "tooltip": ""
+      "tooltip": "The chance that your scout launcher will pull a Soviet Russia and launch YOU."
     }
   }
 }
