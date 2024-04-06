@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "TrippingAndClumsiness.dll",
+  "author": "Owen_013",
+  "name": "Tripping and Clumsiness",
+  "uniqueName": "Owen_013.TrippingAndClumsiness",
+  "version": "1.0.0",
+  "owmlVersion": "2.9.0",
+  "dependencies": []
+}

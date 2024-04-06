@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+
+    "April Fools": {
+      "type": "separator"
+    },
+    "Trip Duration": {
+      "type": "number",
+      "value": 5,
+      "tooltip": ""
+    },
+    "Chance of Tripping Randomly": {
+      "type": "number",
+      "value": 0.03,
+      "tooltip": ""
+    },
+    "Chance of Tripping while Sprinting": {
+      "type": "number",
+      "value": 0.05,
+      "tooltip": ""
+    },
+    "Chance of Tripping per Point of Damage": {
+      "type": "number",
+      "value": 0.01,
+      "tooltip": ""
+    },
+    "Reverse Boost Chance": {
+      "type": "number",
+      "value": 0.1,
+      "tooltip": ""
+    },
+    "Emergency Boost Misfire Chance": {
+      "type": "number",
+      "value": 0.1,
+      "tooltip": ""
+    },
+    "Scout Misfire Chance": {
+      "type": "number",
+      "value": 0.1,
+      "tooltip": ""
+    },
+    "Reverse Repair Chance": {
+      "type": "number",
+      "value": 0.25,
+      "tooltip": ""
+    }
+  }
+}
